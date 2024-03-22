@@ -1,0 +1,98 @@
+#root {
+  width: 400vh;
+}
+body {
+  background: #efc6c6;
+  font-family: 'Courier New', Courier, monospace;
+ 
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  justify-content: center; 
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.history-list {
+  width: 30%;
+  align-items: center;
+  text-align: center;
+  background: #e0c5d9;
+  list-style-type: none;
+}
+.history {
+  list-style-type: none;
+}
+.pokemon-details {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 200vh;
+  background-color: #d1c4ec;
+}
+
+.banned-list {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 200vh;
+  background-color: #e0c5d9;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.attributes {
+  list-style-type: none;
+  /* display: flex;
+  flex-direction: row;  */
+  padding: 10px;
+}
+
+.attributes li {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.attributes li:hover {
+  background-color: #f0f0f0;
+}
+
+.banned-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.banned-list li {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.banned-list li:hover {
+  text-decoration: line-through;
+}
